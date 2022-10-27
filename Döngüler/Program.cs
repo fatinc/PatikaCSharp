@@ -7,6 +7,7 @@ namespace Döngüler
         static void Main(string[] args)
         {
             Donguler1();
+            Donguler2();
         }
 
         public static void Donguler1()
@@ -18,7 +19,7 @@ namespace Döngüler
             int sayac = int.Parse(Console.ReadLine());
             for (int i = 0; i <= sayac; i++)
             {
-                if (i%2 == 1)
+                if (i % 2 == 1)
                 {
                     Console.WriteLine(i);
                 }
@@ -30,7 +31,7 @@ namespace Döngüler
             int ÇiftToplam = 0;
             for (int i = 0; i <= 1000; i++)
             {
-                if (i%2 == 1)
+                if (i % 2 == 1)
                 {
                     TekToplam += i;
                 }
@@ -38,7 +39,7 @@ namespace Döngüler
                 {
                     ÇiftToplam += i;
                 }
-                
+
             }
             Console.WriteLine("Tek Toplam :" + TekToplam + " Çift Toplam : " + ÇiftToplam);
 
@@ -46,10 +47,10 @@ namespace Döngüler
 
             for (int i = 1; i < 10; i++)
             {
-                if (i==4)
+                if (i == 4)
                 {
                     break;
-                    
+
                 }
                 Console.WriteLine(i);
             }
@@ -68,6 +69,37 @@ namespace Döngüler
             }
 
         }
-    }
 
+        public static void Donguler2()
+        {
+            // While 1 - Girilen Sayı Ortalama
+            Console.WriteLine("Bir Sayı Giriniz:");
+            int sayi = int.Parse(Console.ReadLine());
+            int sayac = 1;
+            int toplam = 0;
+            while (sayac<=sayi)
+            {
+                toplam+= sayac;
+                sayac++;
+
+            }
+            Console.WriteLine(toplam / sayi);
+
+            // A-Z Tüm Harfleri Yazdır
+            char character = 'a';
+            while (character< 'z')
+            {
+                Console.WriteLine(character);
+                character ++;
+            }
+
+            //For Each
+
+            string[] cars = { "Bmw", "Mercedes", "Toyota", "Ford", "Nissan", "Opel", "Fiat" };
+            foreach (var car in cars)
+            {
+                Console.WriteLine(car);
+            }
+        }
+    }
 }
