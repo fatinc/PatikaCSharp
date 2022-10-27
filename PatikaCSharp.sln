@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Döngüler", "Döngüler\D�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diziler", "Diziler\Diziler.csproj", "{55249266-0E9F-44D5-968A-060A3D969016}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{DD7EEAD6-D130-4953-A653-6ADCC17DA6A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverLoading", "MethodOverLoading\MethodOverLoading.csproj", "{B0843970-C803-46E8-A59A-B3F15A3F882C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{55249266-0E9F-44D5-968A-060A3D969016}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55249266-0E9F-44D5-968A-060A3D969016}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55249266-0E9F-44D5-968A-060A3D969016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7EEAD6-D130-4953-A653-6ADCC17DA6A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7EEAD6-D130-4953-A653-6ADCC17DA6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7EEAD6-D130-4953-A653-6ADCC17DA6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7EEAD6-D130-4953-A653-6ADCC17DA6A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0843970-C803-46E8-A59A-B3F15A3F882C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0843970-C803-46E8-A59A-B3F15A3F882C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0843970-C803-46E8-A59A-B3F15A3F882C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0843970-C803-46E8-A59A-B3F15A3F882C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
